@@ -45,5 +45,5 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: docker.pkg.github.com
-          repository: ArtDark/bgo_docker/bank
+          repository: artdark/bgo_docker/bank
           tag_with_ref: true
