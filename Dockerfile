@@ -1,3 +1,4 @@
 FROM alpine:3.14
-RUN mkdir /app
 COPY bank /app/
+CMD ["/app/bank"]
+EXPOSE 9999
